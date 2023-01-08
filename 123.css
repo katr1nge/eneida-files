@@ -6,7 +6,7 @@
       }
 @font-face {
     font-family: 'eukr2';
-        src: url('e-Ukraine.otf') format('truetype');
+        src: url('e-Ukraine.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
         }
@@ -21,7 +21,7 @@
       }
 @font-face {
     font-family: 'eukr2';
-        src: url('e-Ukraine.otf') format('truetype');
+        src: url('e-Ukraine.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
         }
