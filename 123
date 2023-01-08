@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'BebasNeueBold';
+        src: url('/assets/fonts/bebusneuebold/4c1631f8d4a029308bd7fb37d847fcf9/1e99b0442583593743adb5d91d7c0669/BebasNeueBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: 'Bebas Neue';
+        src: url('/assets/fonts/bebusneuebold/4c1631f8d4a029308bd7fb37d847fcf9/1e99b0442583593743adb5d91d7c0669/BebasNeueBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
