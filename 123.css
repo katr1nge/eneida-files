@@ -10,9 +10,6 @@
     font-weight: normal;
     font-style: normal;
         }
-
- /* Tebex fonts import. */ 
-
 @font-face {
     font-family: 'benbold2';
         src: url('benbold.ttf') format('truetype');
