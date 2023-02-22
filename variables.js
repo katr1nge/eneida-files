@@ -119,17 +119,17 @@ var deluxedesc = `
   <li class="sub"><span class="doncolor">Пети</span></li>
 </ul>
 </ul>
-            <div class="text-center w-100 d-block">
-            <div class="dropdown">
-              <button id="button2" class="bbo dropbtn fs24">Термін підписки:</button>
-              <div class="bbo text-center dropdown-content" id="myDropdown">
-                <button id="1mo" class="dropdown-item" data-link="#">1 місяць</button>
-                <button id="3mo" class="dropdown-item" data-link="#">3 місяці</button>
-                <button id="6mo" class="dropdown-item" data-link="#">6 місяців</button>
-                <button id="12mo" class="dropdown-item" data-link="#" style="border-radius: 0px 0px 16px 16px;">12 місяців</button>
-              </div>
-          </div>
-        </div>
+<div class="text-center w-100 d-block">
+<div class="dropdown">
+  <button id="button1_2" class="bbo dropbtn fs24">Термін підписки:</button>
+  <div class="bbo text-center dropdown-content" id="myDropdown_2">
+    <button id="1mo" class="dropdown-item" data-link="#">1 місяць</button>
+    <button id="3mo" class="dropdown-item" data-link="#">3 місяці</button>
+    <button id="6mo" class="dropdown-item" data-link="#">6 місяців</button>
+    <button id="12mo" class="dropdown-item" data-link="#" style="border-radius: 0px 0px 16px 16px;">12 місяців</button>
+  </div>
+</div>
+</div>
              <br>
           <div class="sbut text-center">
           <button class="bbo btn m-0" id="button2_2" disabled>Підписатися</button>
