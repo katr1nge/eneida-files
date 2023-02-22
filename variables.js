@@ -91,11 +91,15 @@ var premiumdesc = `
               <div class="bbo text-center dropdown-content" id="myDropdown">
                 <button id="1mo" class="dropdown-item" data-link="#">1 місяць</button>
                 <button id="3mo" class="dropdown-item" data-link="#">3 місяці</button>
-                <button id="6mo" class="dropdown-item" data-link="#">6 місяці</button>
-                <button id="12mo" class="dropdown-item" data-link="#" style="border-radius: 0px 0px 16px 16px;">12 місяців</button>
+                <button id="6mo" class="dropdown-item" data-link="#">4 місяці</button>
+                <button id="12mo" class="dropdown-item" data-link="#" style="border-radius: 0px 0px 16px 16px;">6 місяців</button>
               </div>
           </div>
         </div>
+          <br>
+          <div class="sbut text-center">
+          <button class="bbo btn m-0" id="button2" disabled>Підписатися</button>
+      </div>
 `;
 var element3 = document.getElementById("premiumdesc");
 element3.innerHTML = premiumdesc;
@@ -126,6 +130,10 @@ var deluxedesc = `
               </div>
           </div>
         </div>
+             <br>
+          <div class="sbut text-center">
+          <button class="bbo btn m-0" id="button2_2" disabled>Підписатися</button>
+      </div>
 `;
 var element4 = document.getElementById("deluxedesc");
 element4.innerHTML = deluxedesc;
