@@ -108,7 +108,7 @@ var deluxedesc = `
 <li class="donp">Можливість зайти на <span class="doncolor">заповнену BedWars арену</span></li>
 <li class="donp">Множник гришок <span class="doncolor">х2.0</span></li>
 <li class="donp">За вбивство на Smasher вам буде додаватися <span class="doncolor">3 монетки</span></li>
-<li class="donp">Вам стають доступні для придбання нові ґаджети:
+<li class="donp">Вам стають доступні для придбання нові гаджети:
 </li>
 <ul>
   <li class="sub"><span class="doncolor">Плащі</span></li>
