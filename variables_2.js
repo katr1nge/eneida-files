@@ -62,11 +62,3 @@ document.getElementById("button2_2").addEventListener("click", function() {
 let link = this.getAttribute("data-link");
 window.location.href = link;
 });
-
-var Header = "Відкриття! Та ще й великий заголовок";
-var element = document.getElementById("header");
-element.innerHTML = Header;
-
-var SubHead = "Стань частиною початку кінця російських серверів в Україні";
-var element2 = document.getElementById("sub-head");
-element2.innerHTML = SubHead;
