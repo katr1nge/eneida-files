@@ -50,3 +50,38 @@ fetch('https://github.com/katr1nge/eneida-files/blob/main/benbold.ttf?raw=true',
   .catch(error => {
     console.error(error);
   });
+
+const navbar = document.querySelector('.navbar');
+const popupContainer = document.querySelector('.popup-container');
+
+// Визначаємо висоту навігаційної панелі
+let navbarHeight = navbar.offsetHeight;
+
+// Встановлюємо відповідну висоту для поп-ап вікна при завантаженні сторінки
+popupContainer.style.top = navbarHeight + 30 + 'px';
+
+// Встановлюємо відповідну висоту для поп-ап вікна при кожному скролі
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset >= navbarHeight) {
+    popupContainer.style.top = '32';
+  } else {
+    popupContainer.style.top = navbarHeight + 'px';
+  }
+});
+
+        const profileLink = document.querySelector('.nav-profile');
+        const popup = document.querySelector('.popup-container');
+      
+        profileLink.addEventListener('click', function(e) {
+          e.preventDefault();
+          popup.classList.toggle('show');
+        });
+      
+        document.addEventListener('click', function(e) {
+          const target = e.target;
+      
+          // перевіряємо, чи клікнуто за межами popup-контейнера
+          if (!popup.contains(target) && !target.matches('.nav-profile')) {
+            popup.classList.remove('show');
+          }
+        });
