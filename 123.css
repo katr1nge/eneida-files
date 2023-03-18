@@ -11,16 +11,9 @@
     font-style: normal;
         }
 @font-face {
-    font-family: 'benbold2';
-        src: url('benbold.ttf') format('truetype');
+    font-family: 'eub2';
+        src: url('e-Ukraine-bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-      }
-@font-face {
-    font-family: 'eukr2';
-        src: url('e-Ukraine.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal
         }
-
 
