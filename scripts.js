@@ -85,3 +85,12 @@ window.addEventListener('scroll', function() {
             popup.classList.remove('show');
           }
         });
+
+let alertDiv = document.getElementById("alert");
+
+alertDiv.style.transition = "all 0.5s ease-in-out";
+alertDiv.style.transform = "translateY(-100%)";
+
+setTimeout(function() {
+  alertDiv.style.display = "none";
+}, 500);
